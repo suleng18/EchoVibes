@@ -139,5 +139,3 @@ const PlayerContent: React.FC<PlayerContentProps> = ({ song, songUrl }) => {
 };
 
 export default PlayerContent;
-
-// https://youtu.be/2aeMRB8LL4o?list=PL4ijJLFXAjusx7JJnv6aunjNuX_bCWw4R
