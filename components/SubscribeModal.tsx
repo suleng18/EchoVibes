@@ -27,7 +27,6 @@ const formatPrice = (price: Price) => {
 };
 
 const SubscribeModal: React.FC<SubscribeModalProps> = ({ products }) => {
-  console.log('🚀 - products:', products);
   const subscribeModal = useSubscribeModal();
   const { user, isLoading, subscription } = useUser();
 
