@@ -26,7 +26,7 @@ const MediaItem: React.FC<MediaItemProps> = ({ data, onClick }) => {
   return (
     <div
       onClick={handleClick}
-      className="flex items-center w-full p-2 rounded-md cursor-pointer gap-x-3 hover:bg-neutral-800/50"
+      className="flex items-center w-full p-2 rounded-md cursor-pointer  gap-x-3 hover:bg-neutral-800/50"
     >
       <div
         className="

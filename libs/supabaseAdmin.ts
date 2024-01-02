@@ -132,5 +132,3 @@ const manageSubscriptionStatusChange = async (subscriptionId: string, customerId
 };
 
 export { upsertProductRecord, upsertPriceRecord, createOrRetrieveCustomer, manageSubscriptionStatusChange };
-
-// https://youtu.be/2aeMRB8LL4o?list=PL4ijJLFXAjusx7JJnv6aunjNuX_bCWw4R&t=18915
