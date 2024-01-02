@@ -35,8 +35,9 @@ export async function POST(request: Request) {
       mode: 'subscription',
       allow_promotion_codes: true,
       subscription_data: {
-        trial_from_plan: true,
         metadata,
+        // Adjustments based on the Stripe API or TypeScript types
+        trial_period_days: 14, // For example, set a trial period
       },
       success_url: `${getURL()}/account`,
       cancel_url: `${getURL()}/`,
