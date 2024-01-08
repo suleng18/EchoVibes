@@ -12,8 +12,8 @@ import getActiveProductsWithPrices from '@/actions/getActiveProductsWithPrices';
 const font = Figtree({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Spotify Clone',
-  description: 'Spotify Clone',
+  title: 'EchoVibes',
+  description: 'EchoVibes',
 };
 
 export const revalidate = 0;
